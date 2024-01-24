@@ -14,6 +14,8 @@ Here are some ideas to get you started:
 -->
 # ![Header](./assets/github-header-image.png)
 
+<img src="https://profile-counter.glitch.me/{jagoqui}/count.svg" alt="jagoqui :: Visitor's Count" />
+
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaidiver-g%C3%B3mez-quintero/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaidiver.gomez@udea.edu.co)
 
@@ -30,4 +32,4 @@ Siempre estoy en la búsqueda de formas innovadoras para enfrentar desafíos y m
 
 ![jagoqui's GitHub stats](https://github-readme-stats.vercel.app/api?username=jagoqui&show_icons=true&theme=dark)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jagoqui&layout=compact&theme=dark)
+![jagoqui's GitHub stats](https://myreadme.vercel.app/api/embed/jagoqui?panels=userstatistics,toprepositories,toplanguages,commitgraph)

@@ -12,6 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Contruction state](./assets/under-construction.gif)
+
 # ![Header](./assets/github-header-image.png)
 
 <img src="https://profile-counter.glitch.me/{jagoqui}/count.svg" alt="jagoqui :: Visitor's Count" />

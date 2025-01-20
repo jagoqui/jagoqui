@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaidiver.gomez@udea.edu.co)
 
 
-Con más de 4 años de experiencia en el desarrollo de software, me apasiona la tecnología y disfruto aprendiendo constantemente. Mi enfoque laboral se caracteriza por la dedicación, la perseverancia y la paciencia. Me gusta invertir tiempo en mis tareas, explorando diversas alternativas para abordar cada problema de manera eficiente.
+Con más de 5 años de experiencia en el desarrollo de software, me apasiona la tecnología y disfruto aprendiendo constantemente. Mi enfoque laboral se caracteriza por la dedicación, la perseverancia y la paciencia. Me gusta invertir tiempo en mis tareas, explorando diversas alternativas para abordar cada problema de manera eficiente.
 
 Siempre estoy en la búsqueda de formas innovadoras para enfrentar desafíos y mejorar mis habilidades. Mi compromiso radica en alcanzar la excelencia en mi trabajo, centrándome en encontrar soluciones eficientes y efectivas.
 

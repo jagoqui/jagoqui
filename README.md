@@ -18,8 +18,12 @@ Here are some ideas to get you started:
 
 <img src="https://profile-counter.glitch.me/{jagoqui}/count.svg" alt="jagoqui :: Visitor's Count" />
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaidiver-gomez-quintero/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaidiver.gomez@udea.edu.co)
+<a href="https://www.linkedin.com/in/jaidiver-gomez-quintero/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:jaidiver.gomez@udea.edu.co" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
 
 
 Con más de 5 años de experiencia en el desarrollo de software, me apasiona la tecnología y disfruto aprendiendo constantemente. Mi enfoque laboral se caracteriza por la dedicación, la perseverancia y la paciencia. Me gusta invertir tiempo en mis tareas, explorando diversas alternativas para abordar cada problema de manera eficiente.

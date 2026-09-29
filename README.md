@@ -2,7 +2,7 @@
 
 📍 Colombia · Desarrollador de Software Senior · Microfrontends y Agentes de IA
 
-Construyo **microfrontends escalables** y **agentes de IA locales y en la nube** que aceleran el desarrollo de software sin sacrificar calidad ni seguridad. Llevo más de 7 años en esto y hoy trabajo con Angular, React, Module Federation, LangChain y MCP.
+Construyo **microfrontends escalables** y **agentes de IA locales y en la nube** que aceleran el desarrollo de software sin sacrificar calidad ni seguridad. Cuento con más de 7 años de experiencia desarrollando soluciones para empresas como Sura, Bancolombia, Éxito y Nutresa, con Angular, React, Module Federation, LangChain y MCP.
 
 [LinkedIn](https://www.linkedin.com/in/jaidiver-gomez-quintero/) · [Email](mailto:jagoqui.gomez@gmail.com)
 

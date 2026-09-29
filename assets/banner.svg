@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Jaidiver Gómez Quintero - Desarrollador de Software Senior">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="100%" role="img" aria-label="Jaidiver Gómez Quintero - Desarrollador de Software Senior">
   <title>Jaidiver Gómez Quintero</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -21,7 +21,7 @@
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5"/></filter>
     <filter id="glowS" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5"/></filter>
     <clipPath id="waveClip"><rect x="14" y="34" width="192" height="98"/></clipPath>
-    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="550" rx="18"/></clipPath>
   </defs>
 
   <style>
@@ -64,10 +64,10 @@
   </style>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
-    <g class="drift"><rect x="0" y="0" width="1260" height="360" fill="url(#grid)"/></g>
-    <ellipse class="blob" cx="180" cy="80" rx="380" ry="200" fill="url(#blobA)"/>
-    <ellipse class="blob" cx="980" cy="300" rx="420" ry="200" fill="url(#blobB)" style="animation-delay:-4s"/>
+    <rect width="1200" height="550" fill="url(#bg)"/>
+    <g class="drift"><rect x="0" y="0" width="1260" height="550" fill="url(#grid)"/></g>
+    <ellipse class="blob" cx="220" cy="130" rx="460" ry="240" fill="url(#blobA)"/>
+    <ellipse class="blob" cx="980" cy="470" rx="460" ry="240" fill="url(#blobB)" style="animation-delay:-4s"/>
 
     <circle class="p" cx="683" cy="238" r="2" fill="#f472b6" style="animation-duration:9.4s;animation-delay:-7.7s"/>
     <circle class="p" cx="212" cy="293" r="1" fill="#f472b6" style="animation-duration:10.9s;animation-delay:-0.9s"/>
@@ -85,22 +85,22 @@
     <circle class="p" cx="954" cy="217" r="1" fill="#a78bfa" style="animation-duration:13.3s;animation-delay:-8.8s"/>
     <circle class="p" cx="144" cy="279" r="2" fill="#a78bfa" style="animation-duration:15.4s;animation-delay:-13.7s"/>
     <circle class="p" cx="730" cy="205" r="2" fill="#a78bfa" style="animation-duration:10.5s;animation-delay:-1.2s"/>
-    <rect width="1200" height="360" fill="url(#lines)"/>
-    <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <rect width="1200" height="550" fill="url(#lines)"/>
+    <rect x="1" y="1" width="1198" height="548" rx="17" fill="none" stroke="#22d3ee" stroke-opacity="0.3"/>
 
-    <!-- LEFT: identity -->
-    <g transform="translate(60,0)">
-      <text class="mono" x="0" y="92" font-size="13" fill="#a78bfa" letter-spacing="3">// PERFIL.DEV</text>
-      <text class="sans" x="0" y="150" font-size="42" font-weight="800" fill="url(#name)" textLength="540" lengthAdjust="spacingAndGlyphs" filter="url(#glowS)" opacity="0.5">Jaidiver Gómez Quintero</text>
-      <text class="sans fadein" x="0" y="150" font-size="42" font-weight="800" fill="url(#name)" textLength="540" lengthAdjust="spacingAndGlyphs">Jaidiver Gómez Quintero</text>
-      <rect x="0" y="168" width="120" height="3" rx="1.5" fill="url(#name)"/>
-      <text class="sans fadein2" x="0" y="202" font-size="18" font-weight="600" fill="#e2e8f0">Desarrollador de Software Senior</text>
-      <text class="sans fadein2" x="0" y="228" font-size="17" fill="#cbd5e1">Especialista en Microfrontends y Agentes de IA</text>
-      <text class="mono fadein2" x="0" y="268" font-size="15" fill="#22d3ee" textLength="333" lengthAdjust="spacingAndGlyphs">&gt; seguridad · escalabilidad · calidad</text>
-      <rect class="cursor" x="340" y="255" width="9" height="16" fill="#22d3ee"/>
+    <!-- TOP: identity -->
+    <g transform="translate(56,0)">
+      <text class="mono" x="0" y="72" font-size="18" fill="#a78bfa" letter-spacing="4">// PERFIL.DEV</text>
+      <text class="sans" x="0" y="152" font-size="68" font-weight="800" fill="url(#name)" textLength="860" lengthAdjust="spacingAndGlyphs" filter="url(#glowS)" opacity="0.5">Jaidiver Gómez Quintero</text>
+      <text class="sans fadein" x="0" y="152" font-size="68" font-weight="800" fill="url(#name)" textLength="860" lengthAdjust="spacingAndGlyphs">Jaidiver Gómez Quintero</text>
+      <rect x="0" y="176" width="180" height="4" rx="2" fill="url(#name)"/>
+      <text class="sans fadein2" x="0" y="226" font-size="30" font-weight="600" fill="#e2e8f0">Desarrollador de Software Senior</text>
+      <text class="sans fadein2" x="0" y="264" font-size="26" fill="#cbd5e1">Especialista en Microfrontends y Agentes de IA</text>
+      <text class="mono fadein2" x="0" y="306" font-size="21" fill="#22d3ee" textLength="466" lengthAdjust="spacingAndGlyphs">&gt; seguridad · escalabilidad · calidad</text>
+      <rect class="cursor" x="476" y="288" width="12" height="22" fill="#22d3ee"/>
     </g>
 
-    <g transform="translate(700,24)">
+    <g transform="translate(27.2,338) scale(1.22)">
       <rect class="card" width="220" height="150" rx="10"/>
       <text class="mono lbl" x="14" y="21">MICROFRONTENDS</text>
       <rect class="shell" x="14" y="36" width="192" height="26" rx="5" fill="#22d3ee" stroke="#22d3ee" stroke-opacity=".9"/>
@@ -122,7 +122,7 @@
       <rect class="box" x="165" y="100" width="41" height="28" rx="4" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" style="animation-delay:-1.8s"/>
       <text class="mono" x="185.5" y="118" font-size="9" text-anchor="middle" fill="#cbd5e1">mfe4</text>
     </g>
-    <g transform="translate(940,24)">
+    <g transform="translate(319.6,338) scale(1.22)">
       <rect class="card" width="220" height="150" rx="10"/>
       <text class="mono lbl" x="14" y="21">AI AGENTS</text>
       <path d="M34 48L110 42" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
@@ -164,7 +164,7 @@
       <circle class="halo" cx="186" cy="108" r="10" fill="#f472b6" filter="url(#glowS)" style="animation-delay:3.2s"/>
       <circle cx="186" cy="108" r="5" fill="#0b1026" stroke="#f472b6" stroke-width="1.6"/>
     </g>
-    <g transform="translate(700,182)">
+    <g transform="translate(612.0,338) scale(1.22)">
       <rect class="card" width="220" height="150" rx="10"/>
       <text class="mono lbl" x="14" y="21">PDS</text>
       <path d="M14 83H206" stroke="#22d3ee" stroke-opacity=".25" stroke-dasharray="2 4"/>
@@ -173,7 +173,7 @@
         <g transform="translate(14,0)"><g class="w1"><path d="M0 74.6L4 69.8L8 66.5L12 64.8L16 64.6L20 65.4L24 66.7L28 68.1L32 68.9L36 68.8L40 67.7L44 65.4L48 62.4L52 59.0L56 55.8L60 53.3L64 52.1L68 52.5L72 54.8L76 59.0L80 64.6L84 71.3L88 78.4L92 85.3L96 91.4L100 96.2L104 99.5L108 101.2L112 101.4L116 100.6L120 99.3L124 97.9L128 97.1L132 97.2L136 98.3L140 100.6L144 103.6L148 107.0L152 110.2L156 112.7L160 113.9L164 113.5L168 111.2L172 107.0L176 101.4L180 94.7L184 87.6L188 80.7L192 74.6L196 69.8L200 66.5L204 64.8L208 64.6L212 65.4L216 66.7L220 68.1L224 68.9L228 68.8L232 67.7L236 65.4L240 62.4L244 59.0L248 55.8L252 53.3L256 52.1L260 52.5L264 54.8L268 59.0L272 64.6L276 71.3L280 78.4L284 85.3L288 91.4L292 96.2L296 99.5L300 101.2L304 101.4L308 100.6L312 99.3L316 97.9L320 97.1L324 97.2L328 98.3L332 100.6L336 103.6L340 107.0L344 110.2L348 112.7L352 113.9L356 113.5L360 111.2L364 107.0L368 101.4L372 94.7L376 87.6L380 80.7L384 74.6" fill="none" stroke="#22d3ee" stroke-width="2" filter="url(#glowS)" opacity=".6"/><path d="M0 74.6L4 69.8L8 66.5L12 64.8L16 64.6L20 65.4L24 66.7L28 68.1L32 68.9L36 68.8L40 67.7L44 65.4L48 62.4L52 59.0L56 55.8L60 53.3L64 52.1L68 52.5L72 54.8L76 59.0L80 64.6L84 71.3L88 78.4L92 85.3L96 91.4L100 96.2L104 99.5L108 101.2L112 101.4L116 100.6L120 99.3L124 97.9L128 97.1L132 97.2L136 98.3L140 100.6L144 103.6L148 107.0L152 110.2L156 112.7L160 113.9L164 113.5L168 111.2L172 107.0L176 101.4L180 94.7L184 87.6L188 80.7L192 74.6L196 69.8L200 66.5L204 64.8L208 64.6L212 65.4L216 66.7L220 68.1L224 68.9L228 68.8L232 67.7L236 65.4L240 62.4L244 59.0L248 55.8L252 53.3L256 52.1L260 52.5L264 54.8L268 59.0L272 64.6L276 71.3L280 78.4L284 85.3L288 91.4L292 96.2L296 99.5L300 101.2L304 101.4L308 100.6L312 99.3L316 97.9L320 97.1L324 97.2L328 98.3L332 100.6L336 103.6L340 107.0L344 110.2L348 112.7L352 113.9L356 113.5L360 111.2L364 107.0L368 101.4L372 94.7L376 87.6L380 80.7L384 74.6" fill="none" stroke="#22d3ee" stroke-width="1.8"/></g></g>
       </g>
     </g>
-    <g transform="translate(940,182)">
+    <g transform="translate(904.4,338) scale(1.22)">
       <rect class="card" width="220" height="150" rx="10"/>
       <text class="mono lbl" x="14" y="21">PDI</text>
       <rect class="cell" x="14.0" y="34" width="20" height="12" rx="2" fill="#f472b6" fill-opacity=".85" style="animation-delay:-4.0s"/>

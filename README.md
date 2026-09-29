@@ -70,7 +70,7 @@ Este GitHub reúne proyectos personales y de aprendizaje. No incluye código pri
 
 ## Contacto
 
-[LinkedIn](https://www.linkedin.com/in/jaidiver-gomez-quintero/) · [Email](mailto:jaidiver.gomez@udea.edu.co)
+[LinkedIn](https://www.linkedin.com/in/jaidiver-gomez-quintero/) · [Email](mailto:jagoqui.gomez@gmail.com)
 
 <!--
 Owner: Jaidiver Gómez Quintero

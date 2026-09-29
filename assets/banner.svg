@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Jaidiver Gómez Quintero - Desarrollador de Software Senior">
+  <title>Jaidiver Gómez Quintero</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/><stop offset="0.55" stop-color="#0b1026"/><stop offset="1" stop-color="#120a2a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blobB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.22"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="glowS" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <clipPath id="waveClip"><rect x="14" y="34" width="192" height="98"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+    .sans{font-family:'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
+    .lbl{font-size:11px;letter-spacing:2px;fill:#67e8f9}
+    .card{fill:#0d1430;fill-opacity:.62;stroke:#22d3ee;stroke-opacity:.28}
+    .fadein{opacity:0;animation:fadein 1.2s ease-out .4s forwards}
+    .fadein2{opacity:0;animation:fadein 1.2s ease-out 1s forwards}
+    .cursor{animation:blink 1s steps(1) infinite}
+    .drift{animation:drift 14s ease-in-out infinite alternate}
+    .blob{animation:breathe 9s ease-in-out infinite alternate}
+    .p{animation:floaty linear infinite}
+    .pulse{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:6 60;animation:flow 2.4s linear infinite}
+    .halo{opacity:.15;animation:halo 3.6s ease-in-out infinite}
+    .w1{animation:wave 5s linear infinite}
+    .w2{animation:wave 8s linear infinite}
+    .sweep{animation:sweep 4s linear infinite}
+    .cell{animation:cell 4s linear infinite}
+    .box{animation:box 2.6s ease-in-out infinite}
+    .shell{animation:shellp 2.4s ease-in-out infinite}
+    @keyframes fadein{to{opacity:1}}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes drift{from{transform:translate(0,0)}to{transform:translate(-30px,0)}}
+    @keyframes breathe{from{opacity:.55}to{opacity:1}}
+    @keyframes floaty{from{transform:translateY(0);opacity:0}15%{opacity:.8}85%{opacity:.8}to{transform:translateY(-120px);opacity:0}}
+    @keyframes flow{from{stroke-dashoffset:66}to{stroke-dashoffset:0}}
+    @keyframes halo{0%,100%{opacity:.12}18%{opacity:1}40%{opacity:.12}}
+    @keyframes wave{from{transform:translateX(0)}to{transform:translateX(-192px)}}
+    @keyframes sweep{from{transform:translateX(0)}to{transform:translateX(196px)}}
+    @keyframes cell{0%{opacity:1}30%{opacity:.18}100%{opacity:.18}}
+    @keyframes box{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+    @keyframes shellp{0%,100%{fill-opacity:.12}50%{fill-opacity:.35}}
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none !important}
+      .fadein,.fadein2{opacity:1}
+      .pulse{stroke-dashoffset:30}
+      .halo{opacity:.5}
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <g class="drift"><rect x="0" y="0" width="1260" height="360" fill="url(#grid)"/></g>
+    <ellipse class="blob" cx="180" cy="80" rx="380" ry="200" fill="url(#blobA)"/>
+    <ellipse class="blob" cx="980" cy="300" rx="420" ry="200" fill="url(#blobB)" style="animation-delay:-4s"/>
+
+    <circle class="p" cx="683" cy="238" r="2" fill="#f472b6" style="animation-duration:9.4s;animation-delay:-7.7s"/>
+    <circle class="p" cx="212" cy="293" r="1" fill="#f472b6" style="animation-duration:10.9s;animation-delay:-0.9s"/>
+    <circle class="p" cx="876" cy="217" r="1.2" fill="#22d3ee" style="animation-duration:14.0s;animation-delay:-0.8s"/>
+    <circle class="p" cx="1178" cy="231" r="1.2" fill="#f472b6" style="animation-duration:14.6s;animation-delay:-13.9s"/>
+    <circle class="p" cx="832" cy="212" r="1.2" fill="#22d3ee" style="animation-duration:14.0s;animation-delay:-1.9s"/>
+    <circle class="p" cx="878" cy="236" r="1" fill="#f472b6" style="animation-duration:11.8s;animation-delay:-9.6s"/>
+    <circle class="p" cx="390" cy="226" r="1.2" fill="#a78bfa" style="animation-duration:9.9s;animation-delay:-7.0s"/>
+    <circle class="p" cx="1175" cy="215" r="1.2" fill="#a78bfa" style="animation-duration:15.1s;animation-delay:-6.5s"/>
+    <circle class="p" cx="663" cy="319" r="2" fill="#a78bfa" style="animation-duration:11.7s;animation-delay:-9.3s"/>
+    <circle class="p" cx="519" cy="220" r="1.6" fill="#f472b6" style="animation-duration:13.5s;animation-delay:-4.6s"/>
+    <circle class="p" cx="939" cy="273" r="1" fill="#22d3ee" style="animation-duration:13.6s;animation-delay:-2.2s"/>
+    <circle class="p" cx="720" cy="238" r="2" fill="#a78bfa" style="animation-duration:9.4s;animation-delay:-6.2s"/>
+    <circle class="p" cx="1162" cy="346" r="1.6" fill="#a78bfa" style="animation-duration:15.3s;animation-delay:-9.1s"/>
+    <circle class="p" cx="954" cy="217" r="1" fill="#a78bfa" style="animation-duration:13.3s;animation-delay:-8.8s"/>
+    <circle class="p" cx="144" cy="279" r="2" fill="#a78bfa" style="animation-duration:15.4s;animation-delay:-13.7s"/>
+    <circle class="p" cx="730" cy="205" r="2" fill="#a78bfa" style="animation-duration:10.5s;animation-delay:-1.2s"/>
+    <rect width="1200" height="360" fill="url(#lines)"/>
+    <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#22d3ee" stroke-opacity="0.3"/>
+
+    <!-- LEFT: identity -->
+    <g transform="translate(60,0)">
+      <text class="mono" x="0" y="92" font-size="13" fill="#a78bfa" letter-spacing="3">// PERFIL.DEV</text>
+      <text class="sans" x="0" y="150" font-size="42" font-weight="800" fill="url(#name)" textLength="540" lengthAdjust="spacingAndGlyphs" filter="url(#glowS)" opacity="0.5">Jaidiver Gómez Quintero</text>
+      <text class="sans fadein" x="0" y="150" font-size="42" font-weight="800" fill="url(#name)" textLength="540" lengthAdjust="spacingAndGlyphs">Jaidiver Gómez Quintero</text>
+      <rect x="0" y="168" width="120" height="3" rx="1.5" fill="url(#name)"/>
+      <text class="sans fadein2" x="0" y="202" font-size="18" font-weight="600" fill="#e2e8f0">Desarrollador de Software Senior</text>
+      <text class="sans fadein2" x="0" y="228" font-size="17" fill="#cbd5e1">Especialista en Microfrontends y Agentes de IA</text>
+      <text class="mono fadein2" x="0" y="268" font-size="15" fill="#22d3ee" textLength="333" lengthAdjust="spacingAndGlyphs">&gt; seguridad · escalabilidad · calidad</text>
+      <rect class="cursor" x="340" y="255" width="9" height="16" fill="#22d3ee"/>
+    </g>
+
+    <g transform="translate(700,24)">
+      <rect class="card" width="220" height="150" rx="10"/>
+      <text class="mono lbl" x="14" y="21">MICROFRONTENDS</text>
+      <rect class="shell" x="14" y="36" width="192" height="26" rx="5" fill="#22d3ee" stroke="#22d3ee" stroke-opacity=".9"/>
+      <text class="mono" x="110" y="53" font-size="11" text-anchor="middle" fill="#e0f7ff">SHELL</text>
+      <path d="M40 62L34.5 100" stroke="#22d3ee" stroke-opacity=".3" fill="none"/>
+      <path class="pulse" d="M40 62L34.5 100" stroke="#22d3ee" style="animation-delay:-0.0s"/>
+      <rect class="box" x="14" y="100" width="41" height="28" rx="4" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" style="animation-delay:-0.0s"/>
+      <text class="mono" x="34.5" y="118" font-size="9" text-anchor="middle" fill="#cbd5e1">mfe1</text>
+      <path d="M80 62L84.5 100" stroke="#a78bfa" stroke-opacity=".3" fill="none"/>
+      <path class="pulse" d="M80 62L84.5 100" stroke="#a78bfa" style="animation-delay:-0.6s"/>
+      <rect class="box" x="64" y="100" width="41" height="28" rx="4" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" style="animation-delay:-0.6s"/>
+      <text class="mono" x="84.5" y="118" font-size="9" text-anchor="middle" fill="#cbd5e1">mfe2</text>
+      <path d="M140 62L135.5 100" stroke="#f472b6" stroke-opacity=".3" fill="none"/>
+      <path class="pulse" d="M140 62L135.5 100" stroke="#f472b6" style="animation-delay:-1.2s"/>
+      <rect class="box" x="115" y="100" width="41" height="28" rx="4" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" style="animation-delay:-1.2s"/>
+      <text class="mono" x="135.5" y="118" font-size="9" text-anchor="middle" fill="#cbd5e1">mfe3</text>
+      <path d="M180 62L185.5 100" stroke="#22d3ee" stroke-opacity=".3" fill="none"/>
+      <path class="pulse" d="M180 62L185.5 100" stroke="#22d3ee" style="animation-delay:-1.8s"/>
+      <rect class="box" x="165" y="100" width="41" height="28" rx="4" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" style="animation-delay:-1.8s"/>
+      <text class="mono" x="185.5" y="118" font-size="9" text-anchor="middle" fill="#cbd5e1">mfe4</text>
+    </g>
+    <g transform="translate(940,24)">
+      <rect class="card" width="220" height="150" rx="10"/>
+      <text class="mono lbl" x="14" y="21">AI AGENTS</text>
+      <path d="M34 48L110 42" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 48L110 70" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 48L110 98" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 48L110 126" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 84L110 42" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 84L110 70" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 84L110 98" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 84L110 126" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 120L110 42" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 120L110 70" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 120L110 98" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M34 120L110 126" stroke="#a78bfa" stroke-opacity=".22" fill="none"/>
+      <path d="M110 42L186 60" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 42L186 108" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 70L186 60" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 70L186 108" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 98L186 60" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 98L186 108" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 126L186 60" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <path d="M110 126L186 108" stroke="#f472b6" stroke-opacity=".22" fill="none"/>
+      <circle class="halo" cx="34" cy="48" r="10" fill="#22d3ee" filter="url(#glowS)" style="animation-delay:0.0s"/>
+      <circle cx="34" cy="48" r="5" fill="#0b1026" stroke="#22d3ee" stroke-width="1.6"/>
+      <circle class="halo" cx="34" cy="84" r="10" fill="#22d3ee" filter="url(#glowS)" style="animation-delay:0.4s"/>
+      <circle cx="34" cy="84" r="5" fill="#0b1026" stroke="#22d3ee" stroke-width="1.6"/>
+      <circle class="halo" cx="34" cy="120" r="10" fill="#22d3ee" filter="url(#glowS)" style="animation-delay:0.8s"/>
+      <circle cx="34" cy="120" r="5" fill="#0b1026" stroke="#22d3ee" stroke-width="1.6"/>
+      <circle class="halo" cx="110" cy="42" r="10" fill="#a78bfa" filter="url(#glowS)" style="animation-delay:1.2s"/>
+      <circle cx="110" cy="42" r="5" fill="#0b1026" stroke="#a78bfa" stroke-width="1.6"/>
+      <circle class="halo" cx="110" cy="70" r="10" fill="#a78bfa" filter="url(#glowS)" style="animation-delay:1.6s"/>
+      <circle cx="110" cy="70" r="5" fill="#0b1026" stroke="#a78bfa" stroke-width="1.6"/>
+      <circle class="halo" cx="110" cy="98" r="10" fill="#a78bfa" filter="url(#glowS)" style="animation-delay:2.0s"/>
+      <circle cx="110" cy="98" r="5" fill="#0b1026" stroke="#a78bfa" stroke-width="1.6"/>
+      <circle class="halo" cx="110" cy="126" r="10" fill="#a78bfa" filter="url(#glowS)" style="animation-delay:2.4s"/>
+      <circle cx="110" cy="126" r="5" fill="#0b1026" stroke="#a78bfa" stroke-width="1.6"/>
+      <circle class="halo" cx="186" cy="60" r="10" fill="#f472b6" filter="url(#glowS)" style="animation-delay:2.8s"/>
+      <circle cx="186" cy="60" r="5" fill="#0b1026" stroke="#f472b6" stroke-width="1.6"/>
+      <circle class="halo" cx="186" cy="108" r="10" fill="#f472b6" filter="url(#glowS)" style="animation-delay:3.2s"/>
+      <circle cx="186" cy="108" r="5" fill="#0b1026" stroke="#f472b6" stroke-width="1.6"/>
+    </g>
+    <g transform="translate(700,182)">
+      <rect class="card" width="220" height="150" rx="10"/>
+      <text class="mono lbl" x="14" y="21">PDS</text>
+      <path d="M14 83H206" stroke="#22d3ee" stroke-opacity=".25" stroke-dasharray="2 4"/>
+      <g clip-path="url(#waveClip)">
+        <g transform="translate(14,0)"><g class="w2"><path d="M0 70.3L4 71.7L8 72.3L12 72.2L16 71.4L20 70.2L24 68.9L28 67.9L32 67.6L36 68.3L40 70.1L44 73.1L48 77.2L52 81.9L56 86.9L60 91.8L64 96.2L68 99.6L72 101.8L76 102.7L80 102.5L84 101.3L88 99.5L92 97.5L96 95.7L100 94.3L104 93.7L108 93.8L112 94.6L116 95.8L120 97.1L124 98.1L128 98.4L132 97.7L136 95.9L140 92.9L144 88.8L148 84.1L152 79.1L156 74.2L160 69.8L164 66.4L168 64.2L172 63.3L176 63.5L180 64.7L184 66.5L188 68.5L192 70.3L196 71.7L200 72.3L204 72.2L208 71.4L212 70.2L216 68.9L220 67.9L224 67.6L228 68.3L232 70.1L236 73.1L240 77.2L244 81.9L248 86.9L252 91.8L256 96.2L260 99.6L264 101.8L268 102.7L272 102.5L276 101.3L280 99.5L284 97.5L288 95.7L292 94.3L296 93.7L300 93.8L304 94.6L308 95.8L312 97.1L316 98.1L320 98.4L324 97.7L328 95.9L332 92.9L336 88.8L340 84.1L344 79.1L348 74.2L352 69.8L356 66.4L360 64.2L364 63.3L368 63.5L372 64.7L376 66.5L380 68.5L384 70.3" fill="none" stroke="#f472b6" stroke-opacity=".75" stroke-width="1.6"/></g></g>
+        <g transform="translate(14,0)"><g class="w1"><path d="M0 74.6L4 69.8L8 66.5L12 64.8L16 64.6L20 65.4L24 66.7L28 68.1L32 68.9L36 68.8L40 67.7L44 65.4L48 62.4L52 59.0L56 55.8L60 53.3L64 52.1L68 52.5L72 54.8L76 59.0L80 64.6L84 71.3L88 78.4L92 85.3L96 91.4L100 96.2L104 99.5L108 101.2L112 101.4L116 100.6L120 99.3L124 97.9L128 97.1L132 97.2L136 98.3L140 100.6L144 103.6L148 107.0L152 110.2L156 112.7L160 113.9L164 113.5L168 111.2L172 107.0L176 101.4L180 94.7L184 87.6L188 80.7L192 74.6L196 69.8L200 66.5L204 64.8L208 64.6L212 65.4L216 66.7L220 68.1L224 68.9L228 68.8L232 67.7L236 65.4L240 62.4L244 59.0L248 55.8L252 53.3L256 52.1L260 52.5L264 54.8L268 59.0L272 64.6L276 71.3L280 78.4L284 85.3L288 91.4L292 96.2L296 99.5L300 101.2L304 101.4L308 100.6L312 99.3L316 97.9L320 97.1L324 97.2L328 98.3L332 100.6L336 103.6L340 107.0L344 110.2L348 112.7L352 113.9L356 113.5L360 111.2L364 107.0L368 101.4L372 94.7L376 87.6L380 80.7L384 74.6" fill="none" stroke="#22d3ee" stroke-width="2" filter="url(#glowS)" opacity=".6"/><path d="M0 74.6L4 69.8L8 66.5L12 64.8L16 64.6L20 65.4L24 66.7L28 68.1L32 68.9L36 68.8L40 67.7L44 65.4L48 62.4L52 59.0L56 55.8L60 53.3L64 52.1L68 52.5L72 54.8L76 59.0L80 64.6L84 71.3L88 78.4L92 85.3L96 91.4L100 96.2L104 99.5L108 101.2L112 101.4L116 100.6L120 99.3L124 97.9L128 97.1L132 97.2L136 98.3L140 100.6L144 103.6L148 107.0L152 110.2L156 112.7L160 113.9L164 113.5L168 111.2L172 107.0L176 101.4L180 94.7L184 87.6L188 80.7L192 74.6L196 69.8L200 66.5L204 64.8L208 64.6L212 65.4L216 66.7L220 68.1L224 68.9L228 68.8L232 67.7L236 65.4L240 62.4L244 59.0L248 55.8L252 53.3L256 52.1L260 52.5L264 54.8L268 59.0L272 64.6L276 71.3L280 78.4L284 85.3L288 91.4L292 96.2L296 99.5L300 101.2L304 101.4L308 100.6L312 99.3L316 97.9L320 97.1L324 97.2L328 98.3L332 100.6L336 103.6L340 107.0L344 110.2L348 112.7L352 113.9L356 113.5L360 111.2L364 107.0L368 101.4L372 94.7L376 87.6L380 80.7L384 74.6" fill="none" stroke="#22d3ee" stroke-width="1.8"/></g></g>
+      </g>
+    </g>
+    <g transform="translate(940,182)">
+      <rect class="card" width="220" height="150" rx="10"/>
+      <text class="mono lbl" x="14" y="21">PDI</text>
+      <rect class="cell" x="14.0" y="34" width="20" height="12" rx="2" fill="#f472b6" fill-opacity=".85" style="animation-delay:-4.0s"/>
+      <rect x="38.5" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="63.0" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="87.5" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="112.0" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="136.5" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-1.5s"/>
+      <rect x="161.0" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="185.5" y="34" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-0.5s"/>
+      <rect x="14.0" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="38.5" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="63.0" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="87.5" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="112.0" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="136.5" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="161.0" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="185.5" y="50" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="14.0" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="38.5" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-3.5s"/>
+      <rect x="63.0" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="87.5" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-2.5s"/>
+      <rect x="112.0" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="136.5" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="161.0" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="185.5" y="66" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="14.0" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="38.5" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="63.0" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="87.5" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="112.0" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="136.5" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="161.0" y="82" width="20" height="12" rx="2" fill="#f472b6" fill-opacity=".85" style="animation-delay:-1.0s"/>
+      <rect class="cell" x="185.5" y="82" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-0.5s"/>
+      <rect class="cell" x="14.0" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-4.0s"/>
+      <rect x="38.5" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="63.0" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="87.5" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-2.5s"/>
+      <rect x="112.0" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="136.5" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="161.0" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-1.0s"/>
+      <rect x="185.5" y="98" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="14.0" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="38.5" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-3.5s"/>
+      <rect x="63.0" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="87.5" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect x="112.0" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="cell" x="136.5" y="114" width="20" height="12" rx="2" fill="#f472b6" fill-opacity=".85" style="animation-delay:-1.5s"/>
+      <rect class="cell" x="161.0" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".85" style="animation-delay:-1.0s"/>
+      <rect x="185.5" y="114" width="20" height="12" rx="2" fill="#22d3ee" fill-opacity=".1"/>
+      <rect class="box" x="88" y="50" width="52" height="44" rx="2" fill="none" stroke="#f472b6" stroke-width="1.4" stroke-dasharray="5 3"/>
+      <text class="mono" x="90" y="46" font-size="8" fill="#f472b6">obj 0.97</text>
+      <g transform="translate(14,30)"><rect class="sweep" x="-6" y="0" width="6" height="104" fill="url(#scan)"/></g>
+      <g transform="translate(14,30)"><rect class="sweep" x="0" y="0" width="1.5" height="104" fill="#a5f3fc"/></g>
+    </g>
+  </g>
+</svg>

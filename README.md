@@ -1,41 +1,79 @@
-<!--
-**jagoqui/jagoqui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hola, soy Jaidiver Gómez Quintero
 
-Here are some ideas to get you started:
+📍 Colombia · Desarrollador de Software Senior · Microfrontends y Agentes de IA
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-![Contruction state](./assets/under-construction.gif)
+Construyo **microfrontends escalables** y **agentes de IA locales y en la nube** que aceleran el desarrollo de software sin sacrificar calidad ni seguridad. Llevo más de 7 años en esto y hoy trabajo con Angular, React, Module Federation, LangChain y MCP.
 
-# ![Header](./assets/github-header-image.png)
+[LinkedIn](https://www.linkedin.com/in/jaidiver-gomez-quintero/) · [Email](mailto:jagoqui.gomez@gmail.com)
 
-<img src="https://profile-counter.glitch.me/{jagoqui}/count.svg" alt="jagoqui :: Visitor's Count" />
-
-<a href="https://www.linkedin.com/in/jaidiver-gomez-quintero/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="mailto:jaidiver.gomez@udea.edu.co" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a>
-
-
-Con más de 5 años de experiencia en el desarrollo de software, me apasiona la tecnología y disfruto aprendiendo constantemente. Mi enfoque laboral se caracteriza por la dedicación, la perseverancia y la paciencia. Me gusta invertir tiempo en mis tareas, explorando diversas alternativas para abordar cada problema de manera eficiente.
-
-Siempre estoy en la búsqueda de formas innovadoras para enfrentar desafíos y mejorar mis habilidades. Mi compromiso radica en alcanzar la excelencia en mi trabajo, centrándome en encontrar soluciones eficientes y efectivas.
-
-### Skills
-
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://angular.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="36" height="36" alt="Angular" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a><a href="https://webpack.js.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg" width="36" height="36" alt="Webpack" /></a><a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" /></a><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a><a href="https://mui.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg" width="36" height="36" alt="Material UI" /></a><a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a><a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" /></a><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://supabase.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg" width="36" height="36" alt="Supabase" /></a><a href="https://www.heroku.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" width="36" height="36" alt="Heroku" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://store.arduino.cc/?gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8uueBifykWcsSS4LPESeGQfxGVKJYnzV7bz471XfknQJy_1VINVWM8aAkLtEALw_wcB" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="36" height="36" alt="Arduino" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored.svg" width="36" height="36" alt="XD" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+<p align="center">
+  <img src="./assets/banner.svg" alt="Jaidiver Gómez Quintero · Desarrollador de Software Senior · Especialista en Microfrontends y Agentes de IA" width="100%">
 </p>
 
-![jagoqui's GitHub stats](https://github-readme-stats.vercel.app/api?username=jagoqui&show_icons=true&theme=dark)
+## Por dónde empezar
 
-![jagoqui's GitHub stats](https://myreadme.vercel.app/api/embed/jagoqui?panels=userstatistics,toprepositories,toplanguages,commitgraph)
+- **[Real Estate](https://github.com/jagoqui/real-estate-app)**: caso de estudio de arquitectura hexagonal de punta a punta, con React en el frontend y [.NET 9 en el backend](https://github.com/jagoqui/real-estate-api).
+- **[Double V Microfrontends](https://github.com/jagoqui/double-v-github-users-app)**: caso de estudio de microfrontends con un shell en Next.js y remotes en Angular integrados con Module Federation.
+- **[MCP Gateway](https://github.com/jagoqui/mcp-gateway)** *(laboratorio público, en desarrollo)*: gateway para exponer servidores MCP de forma segura sobre Streamable HTTP, con autenticación propia y enrutamiento con Caddy. Está diseñado con SDD y se entrega en PRs encadenados.
+
+## Enfoque actual (septiembre 2026)
+
+- Construir agentes de desarrollo que siguen estándares: Spec-Driven Development (SDD), harness engineering, agent plugins y validaciones determinísticas de arquitectura, pruebas y seguridad.
+- Llevar agentes a la nube con LangChain, LangGraph y Deep Agents, protegidos con guardrails de PII y sandboxing.
+- Diseñar interfaces para agentes apoyadas en mi experiencia en microfrontends y en protocolos como MCP, AG-UI y ACP.
+
+## Proyectos
+
+### Agentes de IA y MCP
+
+- **[MCP Gateway](https://github.com/jagoqui/mcp-gateway)** *(en desarrollo)*: gateway MCP autogestionado con autenticación (tokens hasheados, cifrado AES-256-GCM) y despliegue en contenedores.
+- **[AI Specs MERN](https://github.com/jagoqui/ai-specs-mern)**: convierte las convenciones de un proyecto MERN en especificaciones y comandos que los agentes siguen de forma consistente.
+
+### Microfrontends
+
+- **[Double V Microfrontends](https://github.com/jagoqui/double-v-github-users-app)**: repositorio de integración y despliegue con GitHub Actions y submódulos de Git.
+  - [Shell en Next.js](https://github.com/jagoqui/double-v-container-app): SSR/SSG con TanStack Query, TanStack Table, Zod y shadcn.
+  - [Remote de detalle](https://github.com/jagoqui/double-v-user-details) y [remote de seguidores](https://github.com/jagoqui/double-v-followers): Angular con Module Federation, RxJS e interceptores.
+
+### Arquitectura full stack
+
+- **[Real Estate App](https://github.com/jagoqui/real-estate-app)**: React, TanStack, Zod y Vitest sobre arquitectura hexagonal, con análisis de SonarQube.
+- **[Real Estate API](https://github.com/jagoqui/real-estate-api)**: API REST en .NET 9 con MongoDB y NUnit, diseñada para ser modular y fácil de probar.
+
+### Visión por computadora (archivo de aprendizaje)
+
+- **[LSC-PDI](https://github.com/jagoqui/LSC-PDI)**: reconocimiento de Lengua de Señas Colombiana con Python, MediaPipe y OpenCV. Proyecto final del curso de Procesamiento Digital de Imágenes.
+
+## Trayectoria
+
+- Desarrollador en Experimentality, creando soluciones digitales para Sura, Bancolombia, Éxito y Nutresa con Angular (10-22), React (17-19) y TanStack. Hoy estoy en el equipo core de Canales Intermediados de Sura.
+- Proyectos destacados: la migración de Evaluación Médica en Línea de Polymer a Angular, SIRE (inventarios y reabastecimiento para Éxito, con Module Federation y SSR), una librería de componentes UX/UI publicada en NPM y una librería de estilos con Lit para Siniestro Integral. En varios de ellos optimicé Web Vitals y SEO.
+- Propuse el [transporte Streamable HTTP para MCP en Engram](https://github.com/Gentleman-Programming/engram/issues/1532), para hosts que no pueden instalar el binario.
+- Estudiante de Ingeniería Electrónica en la Universidad de Antioquia, en los últimos semestres. De ahí vienen mis bases en C, C++, Assembler, FPGAs, electrónica análoga y digital, procesamiento digital de señales e imágenes, machine learning, redes de computadores y sistemas operativos.
+
+Este GitHub reúne proyectos personales y de aprendizaje. No incluye código privado de empleadores ni de clientes, donde vive la mayor parte de mi trabajo profesional.
+
+## Stack
+
+| Área | Tecnologías |
+|---|---|
+| **Frontend** | Angular · React · Next.js · TypeScript · JavaScript · RxJS · TanStack · Zod · Tailwind · Module Federation · Web Components |
+| **Renderizado y rendimiento** | SSR · SSG · CSR · Web Vitals · SEO |
+| **UI y diseño** | Librerías de componentes y estilos · Design systems · Storybook · Figma · Adobe XD |
+| **Desktop y mobile** | Electron · Extensiones de VS Code · Ionic · React Native · Kotlin · Android |
+| **Backend** | Node.js · NestJS · Express · .NET · Python · Go · MongoDB · SQL |
+| **IA y agentes** | LangChain · LangGraph · Deep Agents · MCP · SDD · Claude Code · Gemini · GitHub Copilot |
+| **Visión por computadora** | OpenCV · MediaPipe · YOLO |
+| **Calidad y seguridad** | Testing Library · Playwright · ESLint · Biome · SonarQube · Snyk · OWASP |
+| **Cloud y plataforma** | Azure · AWS · Azure DevOps · Docker · Podman · Devcontainers · Linux |
+| **Arquitectura** | Clean · Hexagonal · Screaming · DDD · Atomic Design · Container/Presentational · C4 |
+
+## Contacto
+
+[LinkedIn](https://www.linkedin.com/in/jaidiver-gomez-quintero/) · [Email](mailto:jaidiver.gomez@udea.edu.co)
+
+<!--
+Owner: Jaidiver Gómez Quintero
+Last reviewed: 2026-09-29
+Review triggers: role or client change, new flagship project, merged open-source PR, job search.
+-->
